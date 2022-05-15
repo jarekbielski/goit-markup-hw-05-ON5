@@ -134,6 +134,17 @@ img {
     padding: 32px;
 }
 
+.navigation-list-link::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    background-color: var(--main-color);
+   
+    top: 80px;
+    left: 0;
+    border-radius: 2px;
+}
 
 .accent {
     color: #212121
@@ -157,9 +168,10 @@ img {
 }
 
 
-.navigation-list {
+.navigation-list-item {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -204,6 +216,8 @@ img {
 .adress-phone-number:focus {
     color: var(--main-color)
 }
+
+
 
 /* ---END-HEADER--- */
 
