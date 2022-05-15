@@ -345,16 +345,34 @@ img {
 
 /*---ABOUT--- */
 
-
 .about-list {
     display: flex;
     justify-content: space-between;
+    margin-left: -30px;
 }
 
 .about-img {
-    margin-right: 30px;
+    position: relative;
+    flex-basis: calc(100%/3-30px);
 }
 
+.about-img>.products {
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.172;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 94px;
+    width: 100%;
+    height: 70px;
+    top: 209px;
+
+}
 
 /*---END-ABOUT--- */
 
@@ -730,5 +748,7 @@ img {
     width: 30px;
     height: 30px;
 }
+
+
 
 /* ---END-BACKFDROP--- */
